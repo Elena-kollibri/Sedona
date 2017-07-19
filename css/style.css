@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "PTSans-Regular";
+	src:url("fonts/web/ptsans.woff"),
+		font-weight: normal;
+}
+
+@font-face {
+	font-family: "PTSans-Bold";
+	src:url("fonts/web/ptsansbold.woff"),
+		font-weight: bold;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	font-family: "PT Sans", Arial, Verdana, sans-serif;
+	font-style: normal;
+	color: #000;
+	background-color: #fff;
+}
+.main-header {
+	width: auto;
+	height: 55px;
+	line-height: 55px;
+	outline: purple solid thin;
+}
+.left-items {
+	position: relative;
+	float: left;
+	width: 455px;
+	margin: 0 auto;
+	padding-left: 75px;
+	outline: red solid thin;
+}
+
+.left-items li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 130px;
+	outline: green solid thin;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.left-items li:last-child {
+	margin-right: 0;
+}
+.left-items a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+
+}
+.right-items {
+	position: relative;
+	float: right;
+	width: 455px;
+	margin: 0 auto;
+	padding-right: 65px;
+	outline: red solid thin;
+}
+.right-items li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 88px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	outline: green solid thin;
+}
+.right-items li:last-child {
+	margin-right: 0;
+}
+.right-items a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+.right-items li:first-child {
+	margin-right: 68px;
+}
+.logo {
+	display: inline-block;
+	width: 138px;
+	outline: pink solid thin;
+
+}
