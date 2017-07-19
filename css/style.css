@@ -9,32 +9,56 @@
 	src:url("fonts/web/ptsansbold.woff"),
 		font-weight: bold;
 }
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
-body {
+html {
 	width: auto;
+	height: auto;
+	background-color: #F2F2F2;
+	outline: blue solid thin;
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
 	height: auto;
 	font-size: 14px;
 	font-family: "PT Sans", Arial, Verdana, sans-serif;
 	font-style: normal;
 	color: #000;
 	background-color: #fff;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	outline: red solid thin;
 }
+
 .main-header {
 	width: auto;
 	height: 55px;
 	line-height: 55px;
+	background-color: #fff;
 	outline: purple solid thin;
 }
+
+.container {
+	position: relative;
+	width: 1056px;
+	margin: 0 auto;
+	outline: red solid thin;
+}
+
 .left-items {
 	position: relative;
 	float: left;
 	width: 455px;
+	padding: 0;
 	margin: 0 auto;
-	padding-left: 75px;
+	z-index: 1000;
 	outline: red solid thin;
 }
 
@@ -47,48 +71,73 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 }
+
 .left-items li:last-child {
 	margin-right: 0;
 }
+
 .left-items a {
 	display: block;
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
-
 }
+
 .right-items {
 	position: relative;
 	float: right;
-	width: 455px;
+	width: 461px;
+	padding: 0;
 	margin: 0 auto;
-	padding-right: 65px;
+	z-index: 1000;
 	outline: red solid thin;
 }
+
 .right-items li {
 	display: inline-block;
 	list-style: none;
-	margin-left: 88px;
+	margin-left: 127px;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: bold;
 	outline: green solid thin;
 }
+
 .right-items li:last-child {
-	margin-right: 0;
+	margin-left: 147px;
 }
+
 .right-items a {
 	display: block;
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
 }
-.right-items li:first-child {
-	margin-right: 68px;
-}
+
 .logo {
+	position: absolute;
+	z-index: 100;
 	display: inline-block;
 	width: 138px;
+	margin-left: -50px;
 	outline: pink solid thin;
+}
+.logo img {
+	position: absolute;
+}
 
+.wrapper {
+	position: relative;
+	width: auto;
+	margin-top: -12px;
+	height: 700px;
+	
+	outline: green solid thin;
+}
+.slogan {
+	width: 575px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: yellow solid thin;
 }
