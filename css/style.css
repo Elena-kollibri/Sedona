@@ -19,7 +19,6 @@ html {
 	width: auto;
 	height: auto;
 	background-color: #F2F2F2;
-	outline: blue solid thin;
 }
 
 body {
@@ -30,11 +29,11 @@ body {
 	font-family: "PT Sans", Arial, Verdana, sans-serif;
 	font-style: normal;
 	color: #000;
+	box-shadow: 0 0 25px -3px rgba(0, 0, 0, 0.5);
 	background-color: #fff;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	outline: red solid thin;
 }
 
 .main-header {
@@ -42,14 +41,12 @@ body {
 	height: 55px;
 	line-height: 55px;
 	background-color: #fff;
-	outline: purple solid thin;
 }
 
 .container {
 	position: relative;
 	width: 1056px;
 	margin: 0 auto;
-	outline: red solid thin;
 }
 
 .left-items {
@@ -59,14 +56,12 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	z-index: 1000;
-	outline: red solid thin;
 }
 
 .left-items li {
 	display: inline-block;
 	list-style: none;
 	margin-right: 130px;
-	outline: green solid thin;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: bold;
@@ -90,7 +85,6 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	z-index: 1000;
-	outline: red solid thin;
 }
 
 .right-items li {
@@ -100,7 +94,6 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: bold;
-	outline: green solid thin;
 }
 
 .right-items li:last-child {
@@ -120,8 +113,8 @@ body {
 	display: inline-block;
 	width: 138px;
 	margin-left: -50px;
-	outline: pink solid thin;
 }
+
 .logo img {
 	position: absolute;
 }
@@ -130,14 +123,534 @@ body {
 	position: relative;
 	width: auto;
 	margin-top: -12px;
-	height: 700px;
-	
-	outline: green solid thin;
 }
+
 .slogan {
 	width: 575px;
-	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
-	outline: yellow solid thin;
+}
+
+.slogan > div {
+	width: 495px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.greeting {
+	padding-top: 88px;
+}
+
+.text {
+	padding-top: 9px;
+}
+
+.city-name {
+	padding-top: 43px;
+}
+
+.quote {
+	padding-top: 53px;
+}
+
+.sub-container {
+	position: absolute;
+	width: 1200px;
+	height: 78px;
+	font-size: 0;
+	background-image: url(../img/pattern.png);
+	background-repeat: no-repeat;
+	background-position: 0 21px;
+}
+
+.description {
+	position: relative;
+	width: auto;
+	background-color: #fff;
+	margin-top: 78px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.title {
+	display: block;
+	width: 505px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 57px;
+	margin-bottom: 19px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.text {
+	display: block;
+	width: 525px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 49px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.block-text {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	background-color: #81B3D2;
+}
+
+.block-text-wrapper {
+	display: block;
+	width: 310px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.block-text-wrapper .subtitle {
+	width: 140px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 49px;
+	margin-bottom: 0;
+	font-size: 21px;
+	line-height: 21px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+ .block-text {
+	margin-right: 0;
+}
+
+.city-foto {
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+}
+
+.city-foto {
+	margin-right: 0px;
+	margin-left: -4px;
+}
+
+.number {
+	display: block;
+	width: 63px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.short-text {
+	display: block;
+	width: 310px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	padding-bottom: 45px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+}
+
+.features {
+	width: 1200px;
+	background-color: #fff;
+	padding: 45px 0 67px 0;
+}
+
+.features-container {
+	position: relative;
+	display: inline-block;
+	margin-right: 0;
+	width: 400px;
+	vertical-align: top;
+}
+
+.features-container:not(:first-child){
+	margin-left: -4px;
+}
+
+.features-title {
+	display: block;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 115px;
+	margin-bottom: 15px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.house::before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 50%;
+	width: 75px;
+	height: 72px;
+	margin-left: -37.5px;
+	background-image: url(../img/house.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.food::before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 50%;
+	width: 75px;
+	height: 72px;
+	margin-left: -37.5px;
+	background-image: url(../img/food.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.souvenirs::before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 50%;
+	width: 75px;
+	height: 72px;
+	margin-left: -37.5px;
+	background-image: url(../img/souvenirs.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.features-text {
+	display: block;
+	width: 310px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.second-reason-block {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	background-color: #81B3D2;
+}
+
+.second-reason-wrapper {
+	display: block;
+	width: 310px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.second-reason-subtitle {
+	width: 153px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 49px;
+	margin-bottom: 0;
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.second-reason-block {
+	margin-left: -4px;
+}
+
+.second-reason-foto {
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+}
+
+.second-reason-number {
+	display: block;
+	width: 63px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.second-reason-short-text {
+	display: block;
+	width: 306px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	padding-bottom: 45px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+}
+
+.reasons {
+	background-color: #eee;
+	margin-top: -3px;
+}
+
+.reasons-wrapper {
+	display: inline-block;
+	width: 400px;
+}
+
+.reasons-wrapper {
+	margin-right: 0;
+}
+
+.reasons-wrapper:not(:first-child) {
+	margin-left: -4px;
+}
+
+.reasons-subtitle {
+	width: 159px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 45px;
+	margin-bottom: 0;
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.reasons-block {
+	margin-left: -4px;
+}
+
+.reasons-number {
+	display: block;
+	width: 63px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	color: #000;
+	font-weight: normal;
+}
+
+.reasons-short-text {
+	display: block;
+	width: 306px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	padding-bottom: 45px;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+}
+
+.search-block {
+	position: relative;
+	width: auto;
+	background-color: #fff;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.search-block-title {
+	display: block;
+	width: 505px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 57px;
+	margin-bottom: 19px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -2px;
+	font-size: 30px;
+	line-height: 24px;
+}
+
+.search-block-text {
+	display: block;
+	width: 525px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 49px;
+	margin-top: 30px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.button {
+	display: block;
+	width: 568px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 28px 0;
+	background-color: #766357;
+	font-size: 21px;
+	line-height: 26px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+.block-map {
+	width: auto;
+}
+
+.footer {
+	position: relative;
+	bottom: 50px;
+	margin-top: 30px;
+}
+
+.footer-container {
+	content: "";
+	position: absolute;
+	bottom: -17px;
+	width: 1056px;
+	padding: 33px 75px 29px 70px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hashtag {
+	display: inline-block;
+	width: 289px;
+	padding-left: 59px;
+	padding-top: 12px;
+	vertical-align: middle;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+.social-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	margin-left: 100px;
+	padding-top: 4px;
+}
+
+.social-btn {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin-right: 3px;
+	vertical-align: middle;
+	background-color: #81B3D2;
+	font-size: 0;
+}
+
+.social-btn:hover {
+	background-color: #669EC0;
+}
+
+.social-twitter {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -200px -136px;
+}
+
+.social-twitter:hover {
+	background-color: #669EC0;
+}
+
+.social-twitter:active {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position:  -200px -199px;
+}
+
+.social-facebook {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -82px -140px;
+}	
+
+.social-facebook:hover {
+	background-color: #669EC0;
+}
+
+.social-facebook:active {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -140px -140px;
+}
+
+.social-youtube {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -266px -184px;
+}
+
+.social-youtube:hover {
+	background-color: #669EC0;
+}
+
+.social-youtube:active {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -266px -248px;
+}
+
+.website-by {
+	display: inline-block;
+	width: 210px;
+	margin-left: 174px;
+	vertical-align: top;
+}
+
+.website-by-text {
+	display: inline-block;
+	margin-bottom: 18px;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.htmlacademy {
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 7px;
+	font-size: 0;
 }
