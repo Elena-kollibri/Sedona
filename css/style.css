@@ -118,6 +118,17 @@ body {
 .logo img {
 	position: absolute;
 }
+/*Начало стилей внутренней страницы*/
+
+.inner-wrapper {
+	width: auto;
+	margin-top: -14px;
+	background-color: #fff;
+	background-image: url(../img/inner-background.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	outline:  red solid thin;
+}
 
 .wrapper {
 	position: relative;
